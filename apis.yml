@@ -1,8 +1,26 @@
 aid: we11done
 name: WE11DONE
-description: 'WE11DONE is a company surfaced as a portfolio company of hongshan and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'WE11DONE (pronounced "well done") is a Seoul-based fashion label founded in 2015 by
+  Dami Kwon and Jessica Jung, the duo behind the Seoul concept boutique Rare Market. The brand fuses
+  late-1990s and early-2000s streetwear and athleisure aesthetics into a globally distributed designer
+  ready-to-wear line, sold through its own e-commerce storefront at we11-done.com and stockists worldwide.
+  Surfaced as a consumer-sector portfolio company of hongshan and added to the API Evangelist network as
+  a lead. An enrichment pass on 2026-07-21 confirmed the company operates a direct-to-consumer retail
+  website but publishes no developer API surface: no developer portal, API reference, well-known metadata,
+  or llms.txt were found.'
 url: https://raw.githubusercontent.com/api-evangelist/we11done/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://gdadmin.we11-done.com/data/common/snsRepresentImage.jpg?v=1748500116
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,13 +29,37 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Consumer
+- Fashion
+- Retail
+- E-Commerce
+- Streetwear
+- Apparel
+- South Korea
 apis: []
+common:
+- type: Website
+  url: https://www.we11-done.com/
+- type: Support
+  url: https://www.we11-done.com/us/service/faq.php
+- type: TermsOfService
+  url: https://www.we11-done.com/us/service/agreement.php
+- type: PrivacyPolicy
+  url: https://www.we11-done.com/us/service/private_new.php
+- type: SignUp
+  url: https://www.we11-done.com/us/member/join.php
+- type: Login
+  url: https://www.we11-done.com/us/member/login.php
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
