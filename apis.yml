@@ -9,6 +9,9 @@ description: 'WE11DONE (pronounced "well done") is a Seoul-based fashion label f
   website but publishes no developer API surface: no developer portal, API reference, well-known metadata,
   or llms.txt were found.'
 url: https://raw.githubusercontent.com/api-evangelist/we11done/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "An enrichment pass on 2026-07-21 confirmed the company operates a direct-to-consumer retail website but publishes no developer API surface: no developer portal, API reference, well-known metadata, or "
 deliveryModel:
   model: saas
   open_source: false
